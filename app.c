@@ -72,7 +72,7 @@ void editTask(int index, const char *task) {
 
 int main(void) {
     int running = 1;
-    char *taskInput = (char *)malloc(100 * sizeof(char)); // Allocate memory for taskInput
+    char *taskInput = (char *)malloc(100 * sizeof(char));
     int choice;
     int indexInput;
 
