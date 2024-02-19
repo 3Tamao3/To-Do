@@ -94,7 +94,7 @@ int main(void) {
             case 1:
                 printf("Enter task: ");
                 getchar();
-                fgets(taskInput, 100, stdin); // Fixed size or dynamic allocation based on requirements
+                fgets(taskInput, 100, stdin); 
                 taskInput[strcspn(taskInput, "\n")] = '\0';
                 addTask(taskInput);
                 break;
@@ -129,7 +129,7 @@ int main(void) {
         }
     }
 
-    free(taskInput); // Free allocated memory
+    free(taskInput);
     free(tasks);
 
     printf("********************************\n");
