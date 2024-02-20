@@ -86,7 +86,7 @@ int main(void) {
     printf("6 = Exit\n");
 
     while (running) {
-        printf("Enter Choice: 1, 2, 3, 4, 5, 6 ->");
+        printf("Enter 1-6 -> ");
         scanf("%d", &choice);
 
         switch (choice) {
