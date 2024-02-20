@@ -23,11 +23,11 @@ void listTasks() {
     char status;
     for (int i = 0; i < len; i++) {
         if (tasks[i].completed == 1) {
-            status = 'D';
+            status = 'X';
         } else {
-            status = 'P';
+            status = ' ';
         }
-        printf("%d. %s [%c]\n", i + 1, tasks[i].task, status);
+        printf(" [%c] %d. %s\n",status, i + 1, tasks[i].task);
     }
 }
 
@@ -84,7 +84,6 @@ int main(void) {
     printf("4 = Edit task\n");
     printf("5 = Delete task\n");
     printf("6 = Exit\n");
-    printf("Info: [P] = Progress, [D] = Done\n");
 
     while (running) {
         printf("Enter Choice: 1, 2, 3, 4, 5, 6 ->");
