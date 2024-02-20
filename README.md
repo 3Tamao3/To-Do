@@ -10,5 +10,6 @@ You can ->
 > 6 - Exit the program <br>
 
 How it looks like: <br> <br>
-![image](https://github.com/3Tamao3/To-Do-App/assets/95978838/401c2dbb-d822-4ae3-ad6b-cfc0f0a818b0)
+![image](https://github.com/3Tamao3/To-Do-App/assets/95978838/794f2a3f-f2d9-4a14-b203-7f76edd32207)
+
 
