@@ -1,4 +1,4 @@
-To-Do-App implemented in C.
+To-Do-List App implemented in C.
 
 You can ->
 
